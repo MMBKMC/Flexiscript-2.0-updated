@@ -1,0 +1,32 @@
+#meaning of command lines
+
+IMPORT = Import Something
+PRINT = Put text in the run terminal
+SET = Bits(bits allow = 16)
+PYTHON = Allow python code in the language code
+INT_MAIN = The main place
+CLASS = Group
+
+#command lines
+
+IMPORT:
+IMPORT Interpreter.py
+
+PRINT:
+PRINT("Hello World!/n")
+PRINT("Good Bye World!/n")
+
+PYTHON:
+PYTHON{
+    *python code*
+}
+
+INT_MAIN:
+INT_MAIN {
+
+}
+
+CLASS:
+CLASS *name* {
+    
+}

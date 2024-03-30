@@ -1,0 +1,9 @@
+IMPORT Interpreter.py
+IMPORT Lexer.py
+IMPORT Parser.py
+
+SET (10)
+PRINT("Hello World!/n")
+
+SET (10)
+PRINT("Hello World!/n")
