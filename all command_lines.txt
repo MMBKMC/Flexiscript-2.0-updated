@@ -6,6 +6,7 @@ SET = Bits(bits allow = 16)
 PYTHON = Allow python code in the language code
 INT_MAIN = The main place
 CLASS = Group
+CONSOLE = Show many text
 
 #command lines
 
@@ -30,3 +31,6 @@ CLASS:
 CLASS *name* {
     
 }
+
+CONSOLE:
+CONSOLE()
