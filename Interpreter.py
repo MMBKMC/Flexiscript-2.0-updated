@@ -30,7 +30,9 @@ def interpreter(parsed_code):
                     elif sub_instruction[1] == 'CLASS':
                         variables[sub_instruction[1]] = sub_instruction[2]
                     elif sub_intruction[1] == 'CONSOLE':
-                        varibles[sub_instruction[1]] = sub_intruction[2]
+                        varibles[sub_instruction[1]] = sub_instruction[2]
+                    elif sub_intruction[1] == 'a + 21 - b':
+                        varibles[sub_instruction[1]] = sub+instruction[1]
 # Flexicode source code to be written into test.flc
 flexicode_code = """
 IMPORT Interpreter.py
